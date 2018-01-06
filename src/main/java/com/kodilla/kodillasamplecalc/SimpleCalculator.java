@@ -15,4 +15,10 @@ public class SimpleCalculator {
         System.out.println("Result: " + d);
         return d;
        }
+    public double multiplyAByB(double a, double b)
+    {
+        double e = a * b;
+        System.out.println("Result: " + e);
+        return e;
+    }
 }
